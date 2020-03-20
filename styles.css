@@ -1,3 +1,7 @@
+div.all{
+  font-family:courier,arial,helvetica;
+}
+
 .fade-inT {
     animation: fadeIn ease 2s;
     -webkit-animation: fadeIn ease 2s;
