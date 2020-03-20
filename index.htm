@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Siddhart's portefolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <style>
@@ -26,7 +27,7 @@
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        width: 40%;
+        width: 50%;
         border-radius: 10px;
         text-align: left;
         margin-left: auto;
@@ -46,22 +47,27 @@
       .container {
         padding: 2px 16px;
       }
+
+      
         
 </style>
 
-<div class="center">
-    <h1 style = "font-family:courier,arial,helvetica;">Hello,</h1>
-    <h2 style = "font-family:courier,arial,helvetica;">My name is Siddhart, I am currently 15 years old and live in the Netherlands.</h2>
-    <h3 style = "font-family:courier,arial,helvetica;">Here are some projects I have made</h3>
-    <a href="./AboutMe.htm"><h4 style = "font-family:courier,arial,helvetica;color:black">More about me</h4></a>
-    <br>
-    <br>
-    <h2 style = "font-family:courier,arial,helvetica;">Discord Bots:</h2>
-    <br>
+<div class="fade-inT">
+  <div class="center">
+      <h1 style = "font-family:courier,arial,helvetica;">Hello,</h1>
+      <h2 style = "font-family:courier,arial,helvetica;">My name is Siddhart, I am currently 15 years old and live in the Netherlands.</h2>
+      <h3 style = "font-family:courier,arial,helvetica;">Here are some projects I have made</h3>
+      <a href="./AboutMe.htm"><h4 style = "font-family:courier,arial,helvetica;color:black">More about me</h4></a>
+      <br>
+      <br>
+      <h2 style = "font-family:courier,arial,helvetica;">Discord Bots:</h2>
+      <br>
+  </div>
 </div>
 
 
 
+<div class="fade-inC">
 <div class="card">
     <img src="./images/SB.png" alt="Avatar" style="width:25%">
     <div class="container">
@@ -82,13 +88,17 @@
       <a href="./DailyArtJams.htm"><p style = "font-family:courier,arial,helvetica; color:black">More info</p></a>
     </div>
 </div>
-<br>
-<br>
-<br>
-<br>
+</div>
+<script>
+  var i;
+  for (i = 0; i < 5; i++) { 
+      document.write("<br>");
+  }
+</script>
+
+
 
 <div class="footer">
-    <!--<p style = "font-family:courier,arial,helvetica;">This is the footer</p>-->
      <a href="https://github.com/Siddhartt" target="_blank">
      <img src="./images/GitHub.png" title="Siddhart's GitHub page" alt="GitHub" height="50" width="50">
      </a>
