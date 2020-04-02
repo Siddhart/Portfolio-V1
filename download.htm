@@ -1,2 +1,13 @@
 <a href="" download></a>
 <button><a href="./images/SB.png" download="StarBotIMG">TEST</a></button>
+
+<script>
+    $(function() {
+        $('a[data-auto-download]').each(function(){
+          var $this = $(this);
+          setTimeout(function() {
+            window.location = $this.attr('./images/SB.png');
+          }, 2000);
+        });
+      });
+</script>
